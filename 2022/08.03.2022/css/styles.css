@@ -1,81 +1,14 @@
-.wrapper {
-	
-}
-.hi {
-}
-.container {
-}
-.hi__row {
-}
-.hi__body {
-}
-.hi__tytle {
-}
-.hi__list {
-}
-.hi__image {
-}
-.what {
-}
-.what__row {
-}
-.what__imag {
-}
-.what__body {
-}
-.what__tytle {
-}
-.tytle {
-}
-.what__text {
-}
-.columns {
-}
-.columns__tytle {
-}
-.columns__row {
-}
-.columns__column {
-}
-.columns__item {
-}
-.item {
-}
-.item__row {
-}
-.item__image {
-}
-.item__body {
-}
-.item__title {
-}
-.item__text {
-}
-.vertical {
-}
-.vertical__title {
-}
-.title {
-}
-.vertical__body {
-}
-.vertical__row {
-}
-.vertical__column {
-}
-.vertical__item {
-}
-.vertical__subtitle {
-}
-.vertical__label {
-}
-.vertical__text {
-}
-.vertical__btn {
-}
-.footer {
-}
-.footer__row {
-}
-.footer__text {
-}
+*{padding: 0; margin: 0; border: 0;}
+*,*:before, *after{box-sizing: border-box;}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+nav, footer, header, aside{display: block;}
+html, body{height: 100%; width: 100%;font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+input, button, textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
