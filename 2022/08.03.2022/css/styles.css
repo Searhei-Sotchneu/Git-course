@@ -51,7 +51,7 @@ body {
 }
 .hi__text li {
 	background: url(/2022/08.03.2022/img/check-icon1.png) 0 0 no-repeat;
-	padding: 0 0 0 36px;
+	padding: 0 0 0 35px;
 	margin: 0 0 17px 0;
 }
 .hi__text li:last-child {
