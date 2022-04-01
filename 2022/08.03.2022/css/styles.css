@@ -13,16 +13,16 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 
-
-body{
+body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
-.content{
+.content {
 	flex: 1 1 auto;
 }
 .hi {
@@ -31,179 +31,169 @@ body{
 }
 .container {
 	max-width: 1180px;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 .hi__row {
 	display: flex;
 	justify-content: space-between;
 }
 .hi__body {
-	color: #ffff;
+	color: #fff;
 	padding: 0 30px 0 0;
+	
 }
-.hi__tytle {
+.hi__title {
 	font-size: 60px;
-	margin: 0 0 50px 0;
+	padding: 0 0 50px 0;
 }
-.hi__list li{
-	background: url('/2022/08.03.2022/img/check-icon1.png') 0 1px no-repeat;
+.hi__text {
 	font-size: 20px;
-	line-height: 22px;
+}
+.hi__text li {
+	background: url(/2022/08.03.2022/img/check-icon1.png) 0 0 no-repeat;
 	padding: 0 0 0 36px;
 	margin: 0 0 17px 0;
 }
-.hi__list li:last-child{
+.hi__text li:last-child {
 	margin: 0;
 }
-.hi__image {
-}
+
 .what {
 	padding: 50px 0;
 }
+
 .what__row {
 	display: flex;
+	gap: 30px;
 }
-.what__imag {
+
+.what__body {
+	color: #445162;
+	flex: 1 1 auto;
+}
+.what__image {
 	flex: 0 0 430px;
 }
-.what__imag img{
+.what__image img {
 	max-width: 100%;
-}
-.what__body {
-	flex: 1 1 auto;
-	padding: 0 0 0 38px;
-}
-.what__tytle {
-	margin: 0 0 33px 0;
 }
 .tytle {
 	font-size: 30px;
-	color: #445161;
+	color: #445162;
+	padding: 0 0 30px 0;
 }
 .what__text {
-	color: #333333;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 20px;
 }
-.what__text p{
-	margin: 0 0 35px 0;
+.what__text p:first-child {
+	padding: 0 0 36px 0;
 }
-.what__text p:last-child{
-	margin: 0;
-}
+
+
 .columns {
 	background: #f5f5f5;
 	padding: 50px 0 20px 0;
 }
+
 .columns__tytle {
 	text-align: center;
-	color: #445161;
-	font-size: 30px;
-	margin: 0 0 30px 0;
 }
+
 .columns__row {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0px -8px;
+	gap: 16px;
 }
 .columns__column {
-	flex: 0 1 50%;
+	flex: 0 1 calc(50% - 16px);
 	margin: 0 0 30px 0;
 }
-.columns__item {
-	padding: 0 8px;
-}
-.item {
-}
+
 .item__row {
 	display: flex;
 }
-.item__image {
+.item__img {
 	flex: 0 0 200px;
 }
 .item__body {
+	color: #445161;
 	flex: 1 1 auto;
 	padding: 0 0 0 15px;
 }
-.item__title {
-	color: #445161;
+.item__tytle {
 	font-size: 24px;
-	margin: 0 0 18px 0;
+	margin: 0 0 20px 0;
 }
 .item__text {
-	color: #333333;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 22px;
 }
+
+
 .vertical {
-}
-.vertical__title {
-	font-size: 30px;
-	color: #445161;
-	text-align: center;
-}
-.title {
 	padding: 50px 0;
 }
+.vertical__tytle {
+	text-align: center;
+}
 .vertical__body {
-	max-width: 990px;
+	width: 990px;
 	margin: 0 auto;
 }
 .vertical__row {
 	display: flex;
-	margin: 0 -22.5px;
+	gap: 45px;
 }
 .vertical__column {
 	flex: 0 1 33.333%;
-	padding: 0 22.5px;
 	display: flex;
 }
 .vertical__item {
-	background: #445162;
+	background-color: #445162;
+	display: flex;
+	flex-direction: column;
 	color: #fff;
 	border-radius: 5px;
 	border: 2px solid #445162;
 	padding: 0 0 20px 0;
-	display: flex;
-	flex-direction: column;
 }
-.vertical__subtitle {
-	padding: 13px 0;
-	text-align: center;
-	font-size: 24px;
+.vertical__subtytle {
 	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	padding: 15px 0;
 }
 .vertical__label {
+	padding: 15px 0;
 	text-align: center;
-	background: #fff;
+	background-color: #fff;
 	color: #445161;
 	font-size: 40px;
-	padding: 17px;
 }
 .vertical__text {
-	color: #fff;
+	padding: 20px;
 	font-size: 14px;
 	line-height: 24px;
-	padding: 20px;
 	flex: 1 1 auto;
 }
-.vertical__text p{
-	padding: 0 0 15px 0;
-}
-.vertical__text p:last-child{
-	margin: 0;
+.vertical__text p:first-child {
+	padding: 0 0 40px 0;
 }
 .vertical__btn {
-	display: block;
 	height: 40px;
-	background: #fff;
-	text-align: center;
-	color: #445161;
-	font-weight: bold;
+	display: block;
+	background-color: #fff;
 	margin: 0 20px;
+	border-radius: 3px;
 	line-height: 40px;
-	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: #445161;
 }
+
+
 .footer {
 	background-color: #f5f5f5;
 }
@@ -214,6 +204,6 @@ body{
 	align-items: center;
 }
 .footer__text {
-	color: #445162;
 	font-size: 12px;
+	color: #445162;
 }
